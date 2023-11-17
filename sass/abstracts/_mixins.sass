@@ -1,0 +1,36 @@
+@mixin clearfix
+    &::after
+        content: ""
+        display: table
+        clear: both
+
+@mixin style-link($color)
+    display: inline-block
+    text-transform: uppercase
+    text-decoration: none
+    color: $color-black
+
+@mixin respond($breakpoint)
+    @if $breakpoint == xs
+        @media (max-width: 572px)
+            @content
+
+    @if $breakpoint == sm
+        @media (max-width: 769px)
+            @content
+
+    @if $breakpoint == md
+        @media (max-width: 920px)
+            @content
+
+    @if $breakpoint == lg
+        @media (max-width: 1030px)
+                @content
+
+    @if $breakpoint == xl
+        @media (max-width: 1199px)
+                @content
+
+    @if $breakpoint == xxl
+        @media (min-width: 1800px)
+                @content

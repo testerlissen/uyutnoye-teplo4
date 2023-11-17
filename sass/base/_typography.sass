@@ -1,0 +1,120 @@
+.title
+    text-align: center
+    &__main
+        margin: 0 2rem
+        font-family: "Cormorant"
+        letter-spacing: .5rem
+        color: $color-yellow
+        display: block
+        font-size: 5rem
+        text-transform: uppercase
+        margin-top: 15rem
+        margin-bottom: 2.5rem
+        animation: TopToBottom
+        animation-duration: 2s
+        animation-delay: .5s
+        animation-timing-function: ease
+        backface-visibility: hidden
+        @include respond(xs)
+            margin-bottom: 4rem
+    &__secondary
+        margin: 0 2rem
+        margin-bottom: 5rem
+        font-family: "Cormorant small"
+        letter-spacing: .5rem
+        color: $color-ocher
+        display: block
+        font-size: 4rem
+        animation: BottomToTop
+        animation-duration: 2s
+        animation-delay: .5s
+        animation-timing-function: ease
+        backface-visibility: hidden
+        @include respond(xs)
+            margin-bottom: 6rem
+
+.title-secondary
+    font-family: "Cormorant"
+    letter-spacing: .5rem
+    text-align: left
+    color: $color-yellow
+    display: block
+    font-size: 5rem
+    margin-top: 4rem
+    margin-bottom: 2.5rem
+
+.title-third
+    font-family: "Cormorant"
+    letter-spacing: .5rem
+    text-align: left
+    color: $color-yellow
+    display: block
+    font-size: 5rem
+    margin-top: 15rem
+    margin-bottom: 2.5rem
+    @include respond(xs)
+        margin-top: 9rem
+    &__left
+        font-family: "Cormorant"
+        letter-spacing: .5rem
+        text-align: left
+        color: $color-yellow
+        display: block
+        font-size: 5rem
+        margin-top: 9rem
+        margin-bottom: 2.5rem
+        @include respond(xs)
+            margin-top: 6rem
+
+.title-fourth
+    font-family: "Cormorant"
+    letter-spacing: .5rem
+    text-align: left
+    color: $color-yellow
+    display: block
+    font-size: 5rem
+    margin-top: 10rem
+    margin-bottom: 2.5rem
+    @include respond(xs)
+        margin-top: 9rem
+
+.title-fifth
+    font-family: "Cormorant"
+    letter-spacing: .5rem
+    text-align: center
+    color: $color-yellow
+    display: block
+    font-size: 5rem
+    margin-top: 6rem
+    margin-bottom: 5rem
+    &__right
+        font-family: "Cormorant"
+        letter-spacing: .5rem
+        text-align: left
+        color: $color-yellow
+        display: block
+        font-size: 5rem
+        margin-top: 15rem
+        @include respond(xs)
+            margin-top: 6rem
+
+.paragraph
+    font-family: "Open_Sans"
+    letter-spacing: .3rem
+    font-size: 1.8rem
+    line-height: 2.5rem
+    @include respond(xs)
+            margin-bottom: 6rem
+
+.paragraph-third
+    font-family: "Open_Sans"
+    letter-spacing: .3rem
+    font-size: 1.8rem
+    line-height: 2.5rem
+
+.paragraph-fourth
+    font-family: "Open_Sans"
+    letter-spacing: .3rem
+    font-size: 1.8rem
+    line-height: 2.5rem
+    max-width: 49rem

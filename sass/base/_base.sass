@@ -1,0 +1,24 @@
+*, ::after, ::before
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+html
+    font-size: 10px
+    scroll-behavior: smooth
+    @include respond(xl)
+        font-size: 56.25%
+    @include respond(lg)
+        font-size: 50%
+    @include respond(md)
+        font-size: 40%
+    @include respond(sm)
+        font-size: 30%
+    @include respond(xs)
+        font-size: 43%
+    @include respond(xxl)
+        font-size: 75%
+
+body
+    background: $color-black
+    color: $color-white

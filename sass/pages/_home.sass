@@ -1,0 +1,25 @@
+.main-section
+    min-height: 83rem
+
+.section-about
+    min-height: 60rem
+    @include respond(xs)
+        min-height: 50rem
+
+.section-furnace
+    min-height: 79rem
+    @include respond(xs)
+        min-height: 120rem
+        clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 95%)
+        margin-bottom: 6rem
+
+.section-fireplaces
+    min-height: 90rem
+    @include respond(xs)
+        min-height: 140rem
+        clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 95%)
+
+.footer
+    min-height: 25rem
+    @include respond(xs)
+        min-height: 30rem

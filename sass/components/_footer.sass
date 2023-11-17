@@ -1,0 +1,41 @@
+.communications
+    display: flex
+    justify-content: center
+    @include respond(xs)
+        width: 22rem
+        display: block
+        margin: 0 auto
+
+.phone-number
+    display: flex
+    margin-right: 15rem
+    align-items: center
+    @include respond(xs)
+        margin-right: 0
+        margin-bottom: 3rem
+    &__text
+        font-family: "Open_Sans"
+        font-size: 1.6rem
+        &_a
+            text-decoration: none
+            color: $color-white
+            &:hover
+                color: $color-yellow
+
+.icon-phone
+    margin-right: 2rem
+
+.mail
+    display: flex
+    align-items: center
+    &__text
+        font-family: "Open_Sans"
+        font-size: 1.6rem
+        &_a
+            text-decoration: none
+            color: $color-white
+            &:hover
+                color: $color-yellow
+
+.icon-mail
+    margin-right: 2rem

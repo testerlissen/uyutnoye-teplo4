@@ -1,0 +1,19 @@
+.row
+    max-width: 114rem
+    margin: 0 auto
+    &:not(:last-child)
+        margin-bottom: 8rem
+    @include clearfix
+    @include respond(xs)
+        flex-direction: column 
+.row__left
+    max-width: 114rem
+    margin: 0 auto
+    &:not(:last-child)
+        margin-bottom: 8rem
+    @include clearfix
+    @include respond(xs)
+        flex-direction: column-reverse
+
+.col
+    padding: 0 4rem
